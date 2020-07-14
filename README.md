@@ -1,5 +1,5 @@
 # AmandaPalindrome
-amanda_palindrome is a sample Ruby in Learn Enough Ruby to Be Dangerous by Michael Hartl.
+amanda_palindrome is a sample Ruby in https://www.learnenough.com/course/learn_enough_ruby by Michael Hartl.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
->> require 'amanda_palindrome'/n
+>> require 'amanda_palindrome'
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
