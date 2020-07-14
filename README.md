@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
->> require 'amanda_palindrome'
+>> require 'amanda_palindrome'/n
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
