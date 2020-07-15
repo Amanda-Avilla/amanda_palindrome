@@ -1,20 +1,13 @@
 require "amanda_palindrome/version"
 
-module AmandaPalindrome
-  class Error < StandardError; end
-  def test_non_palindrome
-    assert !"apple".palindrome?
-  end
+class String
 
-  def test_literal_palindrome
-    assert "racecar".palindrome?
+  def palindrome?
+    processed_content == processed_content.reverse
   end
+private
 
-  def test_mixed_case_palindrome
-    skip
-  end
-
-  def test_palindrome_with_punctuation
-    skip
+  def processed_content
+    self.downcase
   end
 end
